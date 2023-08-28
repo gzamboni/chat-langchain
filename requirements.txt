@@ -11,3 +11,7 @@ faiss-cpu
 bs4
 unstructured
 libmagic
+psycopg2
+dotenv-python
+pgvector
+tiktoken
