@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "chat-langchain"
+version = "0.1.0"
+description = "A sample projet to show Langchain python apis capabilities"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.9"
+fastapi = "^0.103.0"
+black = "^23.7.0"
+isort = "^5.12.0"
+websockets = "^11.0.3"
+pydantic = "^2.3.0"
+langchain = "^0.0.274"
+uvicorn = "^0.23.2"
+jinja2 = "^3.1.2"
+faiss-cpu = "^1.7.4"
+bs4 = "^0.0.1"
+unstructured = "^0.10.8"
+libmagic = "^1.0"
+psycopg2 = "^2.9.7"
+dotenv-python = "^0.0.1"
+pgvector = "^0.2.1"
+tiktoken = "^0.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
